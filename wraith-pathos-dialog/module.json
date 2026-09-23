@@ -1,0 +1,21 @@
+{
+  "id": "wraith-pathos-dialog",
+  "title": "Wraith: Pathos in Arcanos Roll",
+  "description": "Adds Pathos spending to Wraith Arcanos rolls and applies corrected Russian labels to Wraith character sheets.",
+  "version": "1.0.5",
+  "authors": [
+    {
+      "name": "Codex for the Rostov Wraith campaign"
+    }
+  ],
+  "compatibility": {
+    "minimum": "12",
+    "verified": "13"
+  },
+  "esmodules": [
+    "scripts/pathos-dialog.js"
+  ],
+  "styles": [
+    "styles/pathos-dialog.css"
+  ]
+}
