@@ -85,6 +85,81 @@
   font-size: 0.9em;
 }
 
+.wraith-pathos-current.is-missing {
+  color: #ffb4a9;
+  font-weight: 700;
+}
+
+/* Wraith sheet readability adjustments requested for the Russian labels. */
+.wraith .wraith-compact-gear-heading {
+  font-size: 1.15rem !important;
+  line-height: 1.2 !important;
+}
+
+.wraith .wraith-readable-money-label,
+.wraith .wraith-readable-bio-label {
+  font-size: 0.95rem !important;
+  line-height: 1.2 !important;
+}
+
+/* Keep the Combat title at its existing Wraith headline size. */
+.wraith .sheet-inner-area[data-tab="combat"] > .sheet-area:first-of-type .sheet-banner-text {
+  font-size: 2.5rem !important;
+}
+
+.wraith .sheet-inner-area[data-tab="combat"] .headlineRow,
+.wraith .sheet-inner-area[data-tab="combat"] .headlineList {
+  font-size: 0.9rem !important;
+  line-height: 1.2 !important;
+}
+
+.wraith .sheet-inner-area[data-tab="combat"] .headlineNormal,
+.wraith .sheet-inner-area[data-tab="combat"] label,
+.wraith .sheet-inner-area[data-tab="combat"] input,
+.wraith .sheet-inner-area[data-tab="combat"] select {
+  font-size: 0.78rem !important;
+  line-height: 1.2 !important;
+}
+
+.wraith .sheet-inner-area[data-tab="combat"] .headlineRow.combat-natural-itemlist .width-namebox,
+.wraith .sheet-inner-area[data-tab="combat"] .headlineRow.combat-melee-itemlist .width-namebox,
+.wraith .sheet-inner-area[data-tab="combat"] .headlineRow.combat-ranged-itemlist .width-namebox,
+.wraith .sheet-inner-area[data-tab="combat"] .headlineRow.combat-armor-itemlist .width-namebox {
+  width: 140px !important;
+}
+
+.wraith .sheet-inner-area[data-tab="combat"] .item-row-area.combat-natural-itemlist .width-namebox,
+.wraith .sheet-inner-area[data-tab="combat"] .item-row-area.combat-melee-itemlist .width-namebox,
+.wraith .sheet-inner-area[data-tab="combat"] .item-row-area.combat-ranged-itemlist .width-namebox,
+.wraith .sheet-inner-area[data-tab="combat"] .item-row-area.combat-armor-itemlist .width-namebox {
+  width: 125px !important;
+}
+
+.wraith .sheet-inner-area[data-tab="combat"] .combat-natural-itemlist .width-abilitybox,
+.wraith .sheet-inner-area[data-tab="combat"] .combat-melee-itemlist .width-abilitybox,
+.wraith .sheet-inner-area[data-tab="combat"] .combat-ranged-itemlist .width-abilitybox,
+.wraith .sheet-inner-area[data-tab="combat"] .combat-armor-itemlist .width-abilitybox {
+  width: 72px !important;
+}
+
+.wraith .sheet-inner-area[data-tab="combat"] .combat-natural-itemlist .width-smallbox,
+.wraith .sheet-inner-area[data-tab="combat"] .combat-melee-itemlist .width-smallbox,
+.wraith .sheet-inner-area[data-tab="combat"] .combat-ranged-itemlist .width-smallbox,
+.wraith .sheet-inner-area[data-tab="combat"] .combat-armor-itemlist .width-smallbox {
+  width: 48px !important;
+}
+
+.wraith .sheet-inner-area[data-tab="combat"] .combat-natural-itemlist .width-valuebox,
+.wraith .sheet-inner-area[data-tab="combat"] .combat-melee-itemlist .width-valuebox,
+.wraith .sheet-inner-area[data-tab="combat"] .combat-ranged-itemlist .width-valuebox,
+.wraith .sheet-inner-area[data-tab="combat"] .combat-armor-itemlist .width-valuebox {
+  width: 44px !important;
+}
+
+.wraith .sheet-inner-area[data-tab="combat"] .combat-melee-itemlist .width-mediumbox {
+  width: 70px !important;
+}
+
 @media (max-width: 620px) {
   .wraith-pathos-spend {
     flex-wrap: wrap;
